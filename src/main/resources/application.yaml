@@ -1,0 +1,11 @@
+spring:
+  jooq:
+    sql-dialect: postgres
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/PetDB
+    username: postgres
+    password: postgres
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
